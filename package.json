@@ -1,0 +1,17 @@
+{
+  "name": "livin-on-sweets",
+  "productName": "LIVIN' ON SWEETS!",
+  "version": "1.0.0",
+  "description": "Desktop (Electron) wrapper for the LIVIN' ON SWEETS! Blue Archive web minigame",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "check-assets": "node tools/check-assets.js",
+    "build": "electron-packager . LivinOnSweets --platform=win32 --arch=x64 --icon=icon.ico --out=dist --overwrite --no-asar --ignore=^/node_modules --ignore=^/game --ignore=^/dist --ignore=^/tools --ignore=^/README.md --ignore=^/required-assets.json"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "45.4.1"
+  }
+}

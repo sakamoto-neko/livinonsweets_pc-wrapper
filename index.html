@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LIVIN' ON SWEETS!</title>
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+  #play { width: 100vw; height: 100vh; }
+  #play canvas { display: block; }
+</style>
+</head>
+<body>
+<div id="play"></div>
+<script src="app://game/build/index.js"></script>
+<script>
+  // Same call the Blue Archive event page makes, minus the login/score-upload hooks.
+  window.BLUE_ARCHIVE_RHYTHM.init("play", {
+    resourceURL: "app://game/build/static",
+    defaultLanguage: window.LOS_LANG || "en",
+    onStart: function () {},
+    onClear: function () {},
+    onFail: function () {}
+  });
+</script>
+</body>
+</html>

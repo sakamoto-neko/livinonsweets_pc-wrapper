@@ -1,0 +1,954 @@
+{
+ "game": "LIVIN' ON SWEETS! (Blue Archive Global, Oct 2024 event minigame)",
+ "source": "https://nxm-clw-cdn.dn.nexoncdn.co.kr/ba/events/2024/10/minigame_r3409u/build_120d0w/",
+ "files": [
+  {
+   "path": "index.js",
+   "use": "game code (webpack bundle, exports window.BLUE_ARCHIVE_RHYTHM)"
+  },
+  {
+   "path": "03eb72ba11573cb635aa.png",
+   "use": "song \"Irodori Canvas\" album_cd"
+  },
+  {
+   "path": "05fc19b438f485e3559f.mp3",
+   "use": "song \"Twinkle☆Magic\" song"
+  },
+  {
+   "path": "06692aaa77856183535f.png",
+   "use": "song \"TOMODACHI OneStep\" album_cd"
+  },
+  {
+   "path": "0692c4f442180c827777.png",
+   "use": "image:main_02_kazusa"
+  },
+  {
+   "path": "06a97f213e2cebc8b742.mp3",
+   "use": "audio:bgm_theme_165"
+  },
+  {
+   "path": "06ef4790b68bb562bb59.png",
+   "use": "image:main_02_play_shadow"
+  },
+  {
+   "path": "0726acfec0044da9f7f4.mp3",
+   "use": "song \"Irodori Canvas\" song_vocal_highlight"
+  },
+  {
+   "path": "074a5906ec474d85cf11.png",
+   "use": "image:game_stop"
+  },
+  {
+   "path": "0a081d56f7f8b063209b.png",
+   "use": "image:yoshimi_band_04"
+  },
+  {
+   "path": "0ab39ef511b960bbde73.png",
+   "use": "image:song_select_bg_tile2"
+  },
+  {
+   "path": "0c00a22bdc13cde8282c.png",
+   "use": "song \"Aoharu\" album_cd"
+  },
+  {
+   "path": "0c6f2e68766c434bd7a5.otf",
+   "use": "font GyeonggiTitle 700"
+  },
+  {
+   "path": "0cb631a1f2c48de4159c.png",
+   "use": "atlas:story_subject_sheet"
+  },
+  {
+   "path": "0d4bd12b9fe5505d9dab.json",
+   "use": "atlas:game_cutscene_clear_intro_sheet_1"
+  },
+  {
+   "path": "0e515cee65642ad33a5c.mp3",
+   "use": "audio:bgm_theme_16"
+  },
+  {
+   "path": "0fe889b59f9363a3dd04.png",
+   "use": "image:game_pause_exit"
+  },
+  {
+   "path": "1348d83e23acbdaf4f1c.png",
+   "use": "image:game_result_full_combo"
+  },
+  {
+   "path": "1397ba3f8ec3a0ecea2a.png",
+   "use": "sheet:game_long_note_mid_sheet"
+  },
+  {
+   "path": "13e63060b4289244f9b1.png",
+   "use": "image:main_01_bg"
+  },
+  {
+   "path": "14404c0fc43a7115560a.png",
+   "use": "image:airi_band_11"
+  },
+  {
+   "path": "192b56820668da43082d.mp3",
+   "use": "song \"Irodori Canvas\" song_highlight"
+  },
+  {
+   "path": "1aa021e5c7f30674b55a.png",
+   "use": "image:kazusa_band_18"
+  },
+  {
+   "path": "1ad7b996db7fb2f8965d.png",
+   "use": "sheet:main_option_popup_confirm_th"
+  },
+  {
+   "path": "1f0abae6e403905bb557.png",
+   "use": "image:song_select_tab_2_left"
+  },
+  {
+   "path": "203b4d2cd49820169d71.png",
+   "use": "image:dialog_bg_resting_lounge"
+  },
+  {
+   "path": "20ff4c2940dffa9cb33b.png",
+   "use": "image:main_01_airi"
+  },
+  {
+   "path": "21509b2cd342de9388a4.png",
+   "use": "image:main_02_bg"
+  },
+  {
+   "path": "22067f63d5bbe3b12efa.png",
+   "use": "image:song_select_tab_2_right"
+  },
+  {
+   "path": "27cfcebf21cb06e76307.png",
+   "use": "image:natsu_band_08"
+  },
+  {
+   "path": "2b0851c4f3dac7f60b80.mp3",
+   "use": "song \"After School Dessert\" song; audio:bgm_theme_128"
+  },
+  {
+   "path": "2be5b30b1abfc2b1d488.png",
+   "use": "image:kazusa_normal_07"
+  },
+  {
+   "path": "2cf244c34228c6215107.png",
+   "use": "sheet:main_option_popup_confirm_ko"
+  },
+  {
+   "path": "2effb2699cf299719a31.png",
+   "use": "image:song_select_tab_1_right"
+  },
+  {
+   "path": "2f97dab8ac803a15fb2e.png",
+   "use": "sheet:game_note_fx"
+  },
+  {
+   "path": "2fb3c7237ae724a9aa20.png",
+   "use": "sheet:song_select_level"
+  },
+  {
+   "path": "30dd91efba37ba2a6519.png",
+   "use": "image:story_lobby_ui_2"
+  },
+  {
+   "path": "310a25de21f29718b431.png",
+   "use": "image:natsu_band_10"
+  },
+  {
+   "path": "31ab01a7ac9f5090215b.mp3",
+   "use": "song \"TOMODACHI OneStep\" song_highlight"
+  },
+  {
+   "path": "329be9a028d0ae6dc319.png",
+   "use": "image:kazusa_band_08"
+  },
+  {
+   "path": "334171442bd3f8be2379.png",
+   "use": "image:story_lobby_cloud"
+  },
+  {
+   "path": "3392ea08419f35901121.png",
+   "use": "image:main_02_yoshimi"
+  },
+  {
+   "path": "354b3785efd28153121e.png",
+   "use": "image:main_03_kazusa"
+  },
+  {
+   "path": "3685294cd6a9e5ffc6aa.png",
+   "use": "image:main_option_popup_circle"
+  },
+  {
+   "path": "36eb927ee98ee2c961c5.json",
+   "use": "atlas:story_subject_sheet"
+  },
+  {
+   "path": "37e0f6fd062cae2161ae.png",
+   "use": "image:kazusa_band_02"
+  },
+  {
+   "path": "399666ee71eaee55e016.png",
+   "use": "image:story_lobby_cover"
+  },
+  {
+   "path": "3cb7fd19ecd35d1a952b.png",
+   "use": "image:natsu_normal_05"
+  },
+  {
+   "path": "3cc999df8e336f828ba1.png",
+   "use": "image:airi_band_02"
+  },
+  {
+   "path": "3d1b2e630227405fd260.png",
+   "use": "sheet:game_result_confirm_sheet_tc"
+  },
+  {
+   "path": "3d7fb2d21ea63ceef942.mp3",
+   "use": "song \"Bluemark Canvas\" song_highlight"
+  },
+  {
+   "path": "3e143fb537385ed85b8a.png",
+   "use": "sheet:story_lobby_enter_tc"
+  },
+  {
+   "path": "406624bb4e520095a2ca.png",
+   "use": "image:main_02_update_text"
+  },
+  {
+   "path": "426ab1a6b4203ca1e325.png",
+   "use": "image:main_option_popup"
+  },
+  {
+   "path": "4275c5d3d011957c9026.png",
+   "use": "image:natsu_band_07"
+  },
+  {
+   "path": "4719598e601cf8e6218c.png",
+   "use": "image:main_01_kazusa"
+  },
+  {
+   "path": "473ef23051d3a16522fa.png",
+   "use": "image:main_01_story_shadow"
+  },
+  {
+   "path": "475da9630630556a4537.png",
+   "use": "image:game_judge_great"
+  },
+  {
+   "path": "47a30eb555a24cd95198.png",
+   "use": "image:game_pause_continue"
+  },
+  {
+   "path": "4aa661a85a99fcceb8a0.png",
+   "use": "sheet:game_fever_crowd_sheet"
+  },
+  {
+   "path": "4bc40ecc41db2eae89f0.png",
+   "use": "image:game_result_fx"
+  },
+  {
+   "path": "4c0a8be35c9567d38a00.png",
+   "use": "sheet:game_long_note_top_sheet"
+  },
+  {
+   "path": "4d035deaaf3e68368fac.png",
+   "use": "image:game_result_perfect"
+  },
+  {
+   "path": "4daf4130b1cc002c0896.png",
+   "use": "song \"Bluemark Canvas\" album_cd"
+  },
+  {
+   "path": "4dba736b6938eecf6dbc.png",
+   "use": "image:main_02_airi"
+  },
+  {
+   "path": "4e60f2702e229191930f.png",
+   "use": "image:game_judge_miss"
+  },
+  {
+   "path": "4fc74cc68ff2d10a0700.png",
+   "use": "song \"Tremendous Celebration\" album; song \"Tremendous Celebration\" album_lock"
+  },
+  {
+   "path": "4fed3f38b63bdeca4005.png",
+   "use": "atlas:game_cutscene_clear_intro_sheet_2"
+  },
+  {
+   "path": "500cfc713062a2574b3c.png",
+   "use": "atlas:game_cutscene_clear_intro_bg_sheet"
+  },
+  {
+   "path": "5107ba2fda857aaeb9ee.png",
+   "use": "sheet:game_result_rank_sheet"
+  },
+  {
+   "path": "51ae5e4ac9d91da76f39.png",
+   "use": "song \"Twinkle☆Magic\" album_cd"
+  },
+  {
+   "path": "551e9428ecf063d4226f.png",
+   "use": "image:song_select_bg_tile3"
+  },
+  {
+   "path": "565b1962cb7da97914bc.png",
+   "use": "image:yoshimi_band_11"
+  },
+  {
+   "path": "56f13a79e2e2ef8054b3.png",
+   "use": "sheet:song_select_vocal"
+  },
+  {
+   "path": "58ecaf1a2b908cc3d346.png",
+   "use": "image:yoshimi_normal_03"
+  },
+  {
+   "path": "5a359f079b6e4ea3918f.png",
+   "use": "image:natsu_band_03"
+  },
+  {
+   "path": "5c2ba6593f2210dea0f1.png",
+   "use": "image:song_select_button_tooltip"
+  },
+  {
+   "path": "5c74ccfc144fc123b158.png",
+   "use": "sheet:game_result_confirm_sheet_th"
+  },
+  {
+   "path": "5e7b273c8f1df80bf711.png",
+   "use": "image:story_frame"
+  },
+  {
+   "path": "5ea794e42a1a7a022ae7.png",
+   "use": "image:story_lobby_illust"
+  },
+  {
+   "path": "5f17dd82d5e3f43b27fd.png",
+   "use": "sheet:scene_transition"
+  },
+  {
+   "path": "605cf7631fa70cb3a56e.png",
+   "use": "image:main_03_option"
+  },
+  {
+   "path": "60e6d0f870afdf477475.png",
+   "use": "image:airi_band_08"
+  },
+  {
+   "path": "62cbe35daf5de2dba557.mp3",
+   "use": "song \"TOMODACHI OneStep\" song_vocal_highlight"
+  },
+  {
+   "path": "6370656dc9950e6f9ee4.png",
+   "use": "song \"Aoharu\" album"
+  },
+  {
+   "path": "64334db42816df2831d4.mp3",
+   "use": "audio:bgm_story_lobby"
+  },
+  {
+   "path": "64a427158887ff11e34e.png",
+   "use": "sheet:game_result_prop_th"
+  },
+  {
+   "path": "64a46da091fb7c7e5b40.png",
+   "use": "image:game_result_bg"
+  },
+  {
+   "path": "65032ef867bd8cd9ec0d.png",
+   "use": "image:game_result_text_bg"
+  },
+  {
+   "path": "65c892e82daca8b90446.png",
+   "use": "sheet:main_option_popup_confirm_en"
+  },
+  {
+   "path": "65e5cadcedbb8160204a.png",
+   "use": "song \"After School Dessert\" album_cd"
+  },
+  {
+   "path": "6669cdcf8f5ba4a69098.png",
+   "use": "image:scene_transition_hidden_sd"
+  },
+  {
+   "path": "66ad1c7d5b14d83ec0e9.png",
+   "use": "image:yoshimi_normal_02"
+  },
+  {
+   "path": "66d93290173e1913c1fe.mp3",
+   "use": "audio:bgm_main; song \"Bluemark Canvas\" song; audio:bgm_theme_189"
+  },
+  {
+   "path": "67277e9a315971742e32.png",
+   "use": "image:scene_loading_illust_2"
+  },
+  {
+   "path": "67556e1a2409dd3d971b.png",
+   "use": "image:main_01_story"
+  },
+  {
+   "path": "6788fb5bdf6d634e26e5.png",
+   "use": "sheet:story_lobby_enter_th"
+  },
+  {
+   "path": "698a1b412d3d88adfaa8.png",
+   "use": "sheet:main_option_popup_confirm_tc"
+  },
+  {
+   "path": "6b463639ef3ba0d16681.png",
+   "use": "image:song_select_bg_tile"
+  },
+  {
+   "path": "6e065cdd232c2109f0f2.png",
+   "use": "image:scene_loading_illust_3"
+  },
+  {
+   "path": "6fecad7944c138402266.otf",
+   "use": "font GyeonggiTitle 500"
+  },
+  {
+   "path": "70ed0be6dc0f7b4512f0.png",
+   "use": "sheet:song_select_level_arrow_sheet"
+  },
+  {
+   "path": "7175419ded8591fce4eb.png",
+   "use": "image:story_lobby_bg"
+  },
+  {
+   "path": "76484b88dccb172f622c.png",
+   "use": "image:airi_normal_03"
+  },
+  {
+   "path": "77138e7e03b2f53f31db.png",
+   "use": "image:game_chara"
+  },
+  {
+   "path": "7816359ce72f091a86d9.png",
+   "use": "image:story_lobby_ui_1"
+  },
+  {
+   "path": "789613cd65f717653b14.png",
+   "use": "sheet:game_result_confirm_sheet_en"
+  },
+  {
+   "path": "7a74d8ebddd9b05ed618.png",
+   "use": "image:natsu_normal_02"
+  },
+  {
+   "path": "7afcd7886de4d43f2fa7.png",
+   "use": "image:main_02_natsu"
+  },
+  {
+   "path": "7b48a452f6413793bbf0.png",
+   "use": "image:main_03_shine"
+  },
+  {
+   "path": "7cce0554481e52eb028c.png",
+   "use": "image:kazusa_normal_02"
+  },
+  {
+   "path": "7d27a94f0e5e60979531.png",
+   "use": "image:song_select_rank_110"
+  },
+  {
+   "path": "7ee501b2fdf40d93338e.mp3",
+   "use": "song \"TOMODACHI OneStep\" song"
+  },
+  {
+   "path": "7fdea824c0e8a36f26d5.ttf",
+   "use": "font Prompt 700"
+  },
+  {
+   "path": "80b925a02ab0e77b1351.png",
+   "use": "image:game_result_rank"
+  },
+  {
+   "path": "8145344bd63f736d5f92.png",
+   "use": "song \"Aoharu\" album_lock"
+  },
+  {
+   "path": "816b2eb78ed6967b3689.png",
+   "use": "image:song_select_tab_1_left"
+  },
+  {
+   "path": "826e8c231e2340a55bd7.png",
+   "use": "sheet:game_result_level_sheet"
+  },
+  {
+   "path": "82eff4eaec6ad3d0da1a.png",
+   "use": "image:game_fever_bg"
+  },
+  {
+   "path": "83e8c7dc1e5cbb42752c.png",
+   "use": "image:main_02_play"
+  },
+  {
+   "path": "859b058228f1a8abce1a.png",
+   "use": "image:game_judge_good"
+  },
+  {
+   "path": "869bd5887467219aa885.json",
+   "use": "atlas:game_cutscene_clear_intro_bg_sheet"
+  },
+  {
+   "path": "86e109dce1a00fd722d2.png",
+   "use": "song \"Irodori Canvas\" album_lock"
+  },
+  {
+   "path": "88c801a2eb82cd5cf2ee.png",
+   "use": "image:game_score_bar"
+  },
+  {
+   "path": "8b65c64da82c4c6d977e.png",
+   "use": "image:scene_transition_hidden_illust"
+  },
+  {
+   "path": "8bb1f972d03d35c6ada6.png",
+   "use": "image:story_lobby_b_cloud"
+  },
+  {
+   "path": "8bd9b9926bbb534ebff0.png",
+   "use": "image:song_select_ive_alive"
+  },
+  {
+   "path": "8c0971238311b49b7180.png",
+   "use": "image:kazusa_band_07"
+  },
+  {
+   "path": "8c0f77e71ad30ff3a56c.mp3",
+   "use": "song \"Twinkle☆Magic\" song_highlight"
+  },
+  {
+   "path": "8d0bb2ff414e6e320dd8.png",
+   "use": "image:loading_bar"
+  },
+  {
+   "path": "8dcdcc482641f4de7c5b.png",
+   "use": "image:airi_band_04"
+  },
+  {
+   "path": "8dfd172b1a4e631c0233.png",
+   "use": "image:main_01_na_yo"
+  },
+  {
+   "path": "9081f38d371318b6a3da.png",
+   "use": "sheet:game_result_confirm_sheet_ko"
+  },
+  {
+   "path": "90c3cb8a12157c5f1304.png",
+   "use": "sheet:song_select_stamp_sheet"
+  },
+  {
+   "path": "90cab0228d09ffc132cc.png",
+   "use": "image:main_03_natsu"
+  },
+  {
+   "path": "91f49c7a9389445ab76e.png",
+   "use": "image:song_select_tab_2_center"
+  },
+  {
+   "path": "927716bc31d4d9a23aaf.mp3",
+   "use": "song \"Irodori Canvas\" song_vocal"
+  },
+  {
+   "path": "92e16cfd9d0469cf23ee.png",
+   "use": "sheet:game_result_prop_ko"
+  },
+  {
+   "path": "93e7f447838e29747d08.png",
+   "use": "image:loading_bg"
+  },
+  {
+   "path": "976a289902ebb85c42cf.png",
+   "use": "image:airi_band_03"
+  },
+  {
+   "path": "9802b7d2dbb15323cd61.png",
+   "use": "sheet:game_gear_button_sheet"
+  },
+  {
+   "path": "999e82458139273a2cff.ttf",
+   "use": "font Noto Sans TC 700"
+  },
+  {
+   "path": "9ac61838cfd5867eb6ea.png",
+   "use": "image:airi_normal_06"
+  },
+  {
+   "path": "9cfd1cb8dd3e41fa0949.png",
+   "use": "song \"After School Dessert\" album; song \"After School Dessert\" album_lock"
+  },
+  {
+   "path": "9fac7022810dbbe6ae84.png",
+   "use": "image:game_fever_g_bg"
+  },
+  {
+   "path": "a0c52a9b8b6eeb31d67d.png",
+   "use": "image:natsu_band_02"
+  },
+  {
+   "path": "a2b3bfc95c87435b4e0a.png",
+   "use": "image:game_result_clear"
+  },
+  {
+   "path": "a38afc6dbe113d522ff7.png",
+   "use": "image:yoshimi_band_eyeclose"
+  },
+  {
+   "path": "a45c5d99704ec1019531.png",
+   "use": "image:kazusa_band_16"
+  },
+  {
+   "path": "a62e249104a743a52e74.otf",
+   "use": "font DNFBitBitv2 (otf)"
+  },
+  {
+   "path": "a8979f5fddba897421a7.ttf",
+   "use": "font Prompt 400"
+  },
+  {
+   "path": "a8b896c6f134a6949780.png",
+   "use": "image:kazusa_normal_06"
+  },
+  {
+   "path": "a9763f3e048ed78f4341.mp3",
+   "use": "song \"Aoharu\" song; audio:bgm_theme_152"
+  },
+  {
+   "path": "aa4cb4ceba55542cca31.png",
+   "use": "sheet:game_cutscene_clear_fail_sheet"
+  },
+  {
+   "path": "abaf2e934f5d1de2eeec.png",
+   "use": "image:story_lobby_tile"
+  },
+  {
+   "path": "ac23428b6d13a26a9ea1.png",
+   "use": "image:main_03_option_shadow"
+  },
+  {
+   "path": "ac50ce7ec1f044f60f0a.png",
+   "use": "image:kazusa_normal_eyeclose"
+  },
+  {
+   "path": "af793b9d7f6aa9ddfb18.png",
+   "use": "image:popup_unlock"
+  },
+  {
+   "path": "afb1ff01edae0316bd7b.png",
+   "use": "image:game_gear_bg"
+  },
+  {
+   "path": "affba6b84f15426627fe.png",
+   "use": "image:loading_logo"
+  },
+  {
+   "path": "b0b19966b496ab241c8e.png",
+   "use": "image:yoshimi_band_05"
+  },
+  {
+   "path": "b51284bf333641fb2596.png",
+   "use": "image:game_score_bg"
+  },
+  {
+   "path": "b5d20aa500376e000c8b.png",
+   "use": "song \"Twinkle☆Magic\" album; song \"Twinkle☆Magic\" album_lock"
+  },
+  {
+   "path": "b61b8b20d9f431a420d2.mp3",
+   "use": "song \"Aoharu\" song_highlight"
+  },
+  {
+   "path": "b64df718669a6c51fe7d.png",
+   "use": "sheet:story_lobby_enter_ko"
+  },
+  {
+   "path": "b6f4ae911890466727cd.png",
+   "use": "image:game_result_best_score"
+  },
+  {
+   "path": "b7b39033f3bd2cf19b4b.png",
+   "use": "image:yoshimi_band_10"
+  },
+  {
+   "path": "b7b585c0730d11f68614.png",
+   "use": "sheet:game_long_note_bot_sheet"
+  },
+  {
+   "path": "b8da9737101acfa298e4.png",
+   "use": "sheet:game_result_prop_tc"
+  },
+  {
+   "path": "b8db4890d54c238f469a.png",
+   "use": "image:game_judge_sugar"
+  },
+  {
+   "path": "b9ac30ea403e28427511.png",
+   "use": "image:kazusa_band_11"
+  },
+  {
+   "path": "ba54e8fab3ef52d967a3.png",
+   "use": "image:kazusa_band_03"
+  },
+  {
+   "path": "ba768c7b8f3ab44dfc76.png",
+   "use": "image:main_03_airi"
+  },
+  {
+   "path": "ba7e3a3d58520b1af51b.png",
+   "use": "image:game_gear_checkline"
+  },
+  {
+   "path": "bc7ced2eb6a5c8482c08.png",
+   "use": "image:kazusa_normal_13"
+  },
+  {
+   "path": "bd9ee48a76eef73c925e.png",
+   "use": "sheet:story_lobby_enter_en"
+  },
+  {
+   "path": "bf2299046e1d7b5cf082.png",
+   "use": "sheet:story_lobby_book_sheet"
+  },
+  {
+   "path": "bf50bd31a40f9cb4348e.png",
+   "use": "sheet:game_count_sheet"
+  },
+  {
+   "path": "bfe81ca04ad4d2873448.mp3",
+   "use": "song \"TOMODACHI OneStep\" song_vocal"
+  },
+  {
+   "path": "c072a3e99c546cb47f9f.png",
+   "use": "image:kazusa_normal_03"
+  },
+  {
+   "path": "c252cb35b3c6257244a6.png",
+   "use": "image:game_fever_chara"
+  },
+  {
+   "path": "c2c24d5fbf7d78acd6ea.png",
+   "use": "image:game_result_cover"
+  },
+  {
+   "path": "c3c148a352c2dcc0251e.png",
+   "use": "image:game_normal_bg"
+  },
+  {
+   "path": "c50d24d8b0eb946d6bd8.png",
+   "use": "image:game_pause_st_back"
+  },
+  {
+   "path": "c544664ed1eeead66ac8.png",
+   "use": "song \"Bluemark Canvas\" album_lock"
+  },
+  {
+   "path": "c7922522a85ea3a17af2.png",
+   "use": "sheet:song_select_start"
+  },
+  {
+   "path": "ca06bf99890380641e2f.mp3",
+   "use": "audio:bgm_game_result"
+  },
+  {
+   "path": "cb00c6e92a45b5867062.png",
+   "use": "sheet:game_result_prop_en"
+  },
+  {
+   "path": "cc4fb70ba508cb534f8c.png",
+   "use": "image:loading_update_ribbon"
+  },
+  {
+   "path": "cd787feaeedddbbe225f.mp3",
+   "use": "song \"Tremendous Celebration\" song"
+  },
+  {
+   "path": "ce830d82516faa8368fb.mp3",
+   "use": "song \"Tremendous Celebration\" song_highlight"
+  },
+  {
+   "path": "d23cc32b1f0bbe03e6c5.json",
+   "use": "atlas:game_cutscene_clear_intro_sheet_2"
+  },
+  {
+   "path": "d32c1a4248c3b7182623.png",
+   "use": "sheet:loading_airi"
+  },
+  {
+   "path": "d35e8387404afa62cbaf.png",
+   "use": "image:game_pause_retry"
+  },
+  {
+   "path": "d36bb227a3af68b27b69.png",
+   "use": "song \"Bluemark Canvas\" album"
+  },
+  {
+   "path": "d497d7e926fdfe9e9242.png",
+   "use": "image:game_gear_bottom"
+  },
+  {
+   "path": "d521d29763bcc8f22f3c.png",
+   "use": "image:yoshimi_band_07"
+  },
+  {
+   "path": "d6c60a19a1c9e60cf011.png",
+   "use": "image:airi_normal_07"
+  },
+  {
+   "path": "d85aa51d9a2de01f56b9.ttf",
+   "use": "font Noto Sans TC 400"
+  },
+  {
+   "path": "d8c8a8a810d6e224d1eb.png",
+   "use": "image:main_03_yoshimi"
+  },
+  {
+   "path": "d965945a770f227010de.png",
+   "use": "sheet:game_gear_line_sheet"
+  },
+  {
+   "path": "d9f4dd5070644394d447.png",
+   "use": "image:airi_normal_02"
+  },
+  {
+   "path": "dc362bdebb670c3e2e33.png",
+   "use": "image:game_score_frame"
+  },
+  {
+   "path": "dc87a25680d49c6d9930.mp3",
+   "use": "song \"Irodori Canvas\" song; audio:bgm_theme_180"
+  },
+  {
+   "path": "ded312bbd02ae13b5344.png",
+   "use": "image:song_select_bg"
+  },
+  {
+   "path": "e102a9d3aab69085e3d7.png",
+   "use": "song \"TOMODACHI OneStep\" album; song \"TOMODACHI OneStep\" album_lock"
+  },
+  {
+   "path": "e16038ca48d7ea75206a.png",
+   "use": "image:game_pause_stop"
+  },
+  {
+   "path": "e4ebc44e597c446532bf.png",
+   "use": "image:main_03_bg"
+  },
+  {
+   "path": "e55925864fdcda38944a.png",
+   "use": "image:main_option_popup_bar"
+  },
+  {
+   "path": "e56226a917a247c718e6.ttf",
+   "use": "font DNFBitBitv2 (ttf)"
+  },
+  {
+   "path": "e65fc6edd8c993e3e327.png",
+   "use": "image:scene_loading_illust_1"
+  },
+  {
+   "path": "e66a5db92352f68a1a0c.png",
+   "use": "image:airi_band_12"
+  },
+  {
+   "path": "e6ed29fbee93ee5d9e58.png",
+   "use": "song \"Irodori Canvas\" album"
+  },
+  {
+   "path": "e71797921f5618c0efcd.png",
+   "use": "song \"Tremendous Celebration\" album_cd"
+  },
+  {
+   "path": "e9225b29c499dda96061.png",
+   "use": "image:yoshimi_normal_eyeclose"
+  },
+  {
+   "path": "ecf83dabdb109756f32b.png",
+   "use": "image:song_select_tab_1_center"
+  },
+  {
+   "path": "ee9eeb9ba4767d4095cf.png",
+   "use": "image:game_fever_g_bar"
+  },
+  {
+   "path": "eeb859b1378d251aec67.png",
+   "use": "image:yoshimi_band_02"
+  },
+  {
+   "path": "f11fb2cd0f9bdd788e8f.mp3",
+   "use": "song \"After School Dessert\" song_highlight"
+  },
+  {
+   "path": "f2a76be9696e85ed0417.png",
+   "use": "sheet:song_select_back; sheet:story_lobby_back"
+  },
+  {
+   "path": "f39fb83e8e27a933b914.png",
+   "use": "image:kazusa_normal_01"
+  },
+  {
+   "path": "f43a0d7005fde48c6cfb.png",
+   "use": "image:main_01_kazusa_shadow"
+  },
+  {
+   "path": "f475834b4306e9703ac5.png",
+   "use": "sheet:main_option_popup_arrow"
+  },
+  {
+   "path": "f49d12111a83104671cb.png",
+   "use": "image:yoshimi_band_09"
+  },
+  {
+   "path": "f5fc8f2fb9004e01b81b.png",
+   "use": "atlas:game_cutscene_clear_intro_sheet_1"
+  },
+  {
+   "path": "f6fd269f829f563d3d63.png",
+   "use": "image:dialog_bg_arcade"
+  },
+  {
+   "path": "f7f9eed9153eda1363c4.png",
+   "use": "image:yoshimi_normal_05"
+  },
+  {
+   "path": "f974288e51fe85d1d7a6.png",
+   "use": "sheet:game_basic_note_sheet"
+  },
+  {
+   "path": "f9ad827b6205ba717544.png",
+   "use": "sheet:song_select_arrow_sheet"
+  },
+  {
+   "path": "fb613da8817be2b880dd.png",
+   "use": "image:song_select_serenade"
+  },
+  {
+   "path": "fc512daa26b97f72b347.png",
+   "use": "image:natsu_band_05"
+  },
+  {
+   "path": "fe79b75cdea880a83493.png",
+   "use": "image:game_pause_st_popup"
+  },
+  {
+   "path": "febbdaaf1f1e5f566b6b.png",
+   "use": "image:story_lobby_stamp"
+  },
+  {
+   "path": "static/transitions/transition_03.atlas",
+   "use": "scene transition (Spine)"
+  },
+  {
+   "path": "static/transitions/transition_03.json",
+   "use": "scene transition (Spine)"
+  },
+  {
+   "path": "static/transitions/transition_03.png",
+   "use": "scene transition (Spine)"
+  },
+  {
+   "path": "static/transitions/transition_03_2.png",
+   "use": "scene transition (Spine)"
+  }
+ ]
+}
