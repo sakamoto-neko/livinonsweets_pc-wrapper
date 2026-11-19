@@ -2,7 +2,7 @@
 
 A small [Electron](https://www.electronjs.org/) app that runs **LIVIN' ON SWEETS!**, the Blue Archive web rhythm minigame (Global event, October 2024), as a Windows desktop program, offline, without the Nexon event page around it.
 
-The repository contains **only the wrapper code**. The game itself (code, images, music, fonts) belongs to Nexon / NEXON Games and is **not included**. You need your own copy of the original `build_120d0w` folder (see [Required assets](#required-assets)).
+The repository contains **only the wrapper code**. The game itself (code, images, music, fonts) belongs to Nexon / NEXON Games and is **not included**. You need your own copy of the original `build_120d0w` folder.
 
 ## What the wrapper does
 
